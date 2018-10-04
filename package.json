@@ -1,0 +1,24 @@
+{
+  "name": "pokemon-happi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --ext js,pug",
+    "lint": "standard",
+    "lint-fix": "standard --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.4",
+    "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "hapi": "^17.6.0",
+    "inert": "^5.1.0",
+    "pug": "^2.0.3",
+    "vision": "^5.4.0"
+  }
+}
